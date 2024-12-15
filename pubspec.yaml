@@ -1,0 +1,71 @@
+name: safe_bump
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  get_it: ^7.2.0
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+  injectable: ^2.1.0
+  google_sign_in: ^6.0.2
+  google_fonts: ^4.0.3
+  shared_preferences: ^2.0.18
+  carousel_slider: ^4.2.1
+  sizer: ^2.0.15
+  flutter_svg: ^2.0.2
+  smooth_page_indicator: ^1.0.1
+  cloud_firestore: ^4.4.4
+  table_calendar: ^3.0.8
+  intl: ^0.17.0
+  json_annotation: ^4.8.0
+  google_maps_flutter: ^2.2.5
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  equatable: ^2.0.5
+  dio: ^5.1.0
+  url_launcher: ^6.1.10
+  video_player: ^2.6.1
+  home_widget: ^0.2.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^2.1.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
+
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/product-sans/Product Sans Regular.ttf
+        - asset: assets/fonts/product-sans/Product Sans Italic.ttf
+          style: italic
+        - asset: assets/fonts/product-sans/Product Sans Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/images/article/
+    - assets/images/exercise/
+    - assets/images/pregnancy detail/
+    - assets/images/logo.png
+    - assets/images/google_icon.png
+    - assets/svg/onboarding/
+    - assets/svg/dashboard/
+    - assets/svg/timeline/
+    - assets/svg/suggested_food/
+
